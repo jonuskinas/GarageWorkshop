@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GarageWorkshop</string>
+    <string name="button">Button</string>
+    <string name="some_text">Some text</string>
+    <string name="list_of_cars">List of cars</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log In</string>
+    <string name="paswdhint">*****************</string>
+    <string name="myemail_gmail_com">myemail@gmail.com</string>
+    <string name="customer_registration">Customer Registration</string>
+    <string name="name">Name</string>
+    <string name="surname">surname</string>
+    <string name="car_number">Car Number</string>
+    <string name="model">Model</string>
+    <string name="make">Make</string>
+    <string name="add_car_to_list">Add car to list</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="car">Car</string>
+    <string name="remove_image">Remove Image</string>
+</resources>

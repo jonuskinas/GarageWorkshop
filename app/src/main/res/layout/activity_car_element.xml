@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/makeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:text="@string/make" />
+    <TextView
+    android:id="@+id/make"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/makeTxt"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="15dp"
+    android:textSize="20sp"
+    android:textColor="@android:color/holo_red_dark"
+    android:text="@string/make"
+    android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/modelTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:text="@string/model" />
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modelTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/model"
+        android:layout_marginRight="15dp" />
+    <TextView
+        android:id="@+id/carNumbTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/model"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:text="@string/car_number" />
+
+    <TextView
+        android:id="@+id/carNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carNumbTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/car_number"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:id="@+id/carImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/carNumb"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/ic_car_image_placeholder"
+        android:layout_centerHorizontal="true"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/remove_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369530257644",
+    "firebase_url": "https://garageworkshop-1ba40.firebaseio.com",
+    "project_id": "garageworkshop-1ba40",
+    "storage_bucket": "garageworkshop-1ba40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369530257644:android:9fc0f20a64c93e25bc25c9",
+        "android_client_info": {
+          "package_name": "com.project.garageworkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369530257644-t0ipq6btsf90lin2m13rf1dvkpj64e9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.garageworkshop",
+            "certificate_hash": "a35131ffb8916764abbd3cb5315cf7a339c026e9"
+          }
+        },
+        {
+          "client_id": "369530257644-th30qhbul75f32no82pd8ts1s4iquniq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqBATci_tSWOlKNbphDsiyjJgtPI_TFYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369530257644-th30qhbul75f32no82pd8ts1s4iquniq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
