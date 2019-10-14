@@ -32,11 +32,17 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     public interface RecyclerClickListener {
         void onOnItemClick(int position);
+        void onLongItemClick(int position);
     }
 
     public void setOnItemClickListener(RecyclerClickListener listener) {
         mListener = listener;
 
+    }
+
+    public void removeElement(int position) {
+       data.remove(position);
+       notifyDataSetChanged();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder  {
@@ -60,6 +66,21 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                         if(position != RecyclerView.NO_POSITION) {
                             listener.onOnItemClick(position);
                         }
+                    }
+                }
+            });
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    if (listener != null) {
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION) {
+                            listener.onLongItemClick(position);
+                        }
+                        return true;
+                    }
+                    else {
+                        return false;
                     }
                 }
             });

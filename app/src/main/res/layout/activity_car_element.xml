@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/darGray">
 
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:textSize="22sp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/middleGray"
         android:text="@string/make" />
     <TextView
     android:id="@+id/make"
@@ -25,7 +26,7 @@
     android:layout_marginTop="15dp"
     android:layout_marginEnd="15dp"
     android:textSize="20sp"
-    android:textColor="@android:color/holo_red_dark"
+    android:textColor="@color/lightestGray"
     android:text="@string/make"
     android:layout_marginRight="15dp" />
 
@@ -37,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:textSize="22sp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/middleGray"
         android:text="@string/model" />
     <TextView
         android:id="@+id/model"
@@ -48,7 +49,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:textSize="20sp"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/lightestGray"
         android:text="@string/model"
         android:layout_marginRight="15dp" />
     <TextView
@@ -59,7 +60,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:textSize="22sp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/middleGray"
         android:text="@string/car_number" />
 
     <TextView
@@ -71,7 +72,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:textSize="20sp"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/lightestGray"
         android:text="@string/car_number"
         android:layout_marginRight="15dp" />
 
@@ -88,6 +89,7 @@
     <Button
         android:id="@+id/remove"
         android:layout_width="wrap_content"
+        android:background="@drawable/ic_button"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"

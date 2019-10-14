@@ -76,7 +76,14 @@ public class AddCarActivity extends AppCompatActivity {
                 intent.putExtra("car", (Parcelable) car);
                 startActivity(intent);
             }
+
+            @Override
+            public void onLongItemClick(int position) {
+                adapter.removeElement(position);
+            }
         });
+
+
     }
 
     View.OnClickListener addCar = new View.OnClickListener() {

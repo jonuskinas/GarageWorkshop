@@ -18,4 +18,5 @@
     <string name="sort">Sort</string>
     <string name="car">Car</string>
     <string name="remove_image">Remove Image</string>
+    <string name="add_new_car">Add new car</string>
 </resources>

@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/darGray">
 
 
     <ScrollView
@@ -17,16 +18,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/addcar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Add new car" />
+
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/carslist"
                 android:layout_width="match_parent"
                 android:layout_height="742dp" />
+
+            <Button
+            android:id="@+id/addcar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:background="@drawable/ic_button"
+            android:text="@string/add_new_car" />
 
 
         </LinearLayout>
