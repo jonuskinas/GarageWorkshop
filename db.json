@@ -1,0 +1,19 @@
+{
+  "repairs":
+    [
+      {
+        "userId":"AAA1111",
+        "carNumb":"AEU513",
+        "repairedList":[{"repair":"stabdziai"}, {"repair":"sankaba"}],
+        "cost":"500"
+      
+      },
+      {
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repairedList":[{"repair":"variklis"}, {"repair":"greiciu deze"}],
+        "cost":"500"
+      
+      }
+    ]
+}
