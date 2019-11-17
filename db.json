@@ -2,7 +2,7 @@
   "repairs":
     [
       {
-        "userId":"AAA1111",
+        "userId":"BBB211122",
         "carNumb":"AEU513",
         "repaired":"engine",
         "cost":"500"
@@ -10,9 +10,112 @@
       },
       {
         "userId":"BBB211122",
+        "carNumb":"AZZ215",
+        "repaired":"water pump",
+        "cost":"50"
+      
+      },
+      {
+        "userId":"BBB211122",
+        "carNumb":"JZU955",
+        "repaired":"brakes",
+        "cost":"100"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JNZ459",
+        "repaired":"Regular service",
+        "cost":"55"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JNZ459",
+        "repaired":"Diagnostics",
+        "cost":"10"
+      
+      },{
+        "userId":"BBB211122",
         "carNumb":"HZN863",
+        "repaired":"wheel bearing",
+        "cost":"30"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repaired":"headlight bulb change",
+        "cost":"4"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JZU955",
+        "repaired":"fuel pump",
+        "cost":"150"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JNZ495",
+        "repaired":"haldex oil change",
+        "cost":"25"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repaired":"clutch dual mass flywheel",
+        "cost":"700"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"AEU513",
         "repaired":"gearbox",
         "cost":"500"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repaired":"Rear bumper change",
+        "cost":"85"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JZU955",
+        "repaired":"chip tuning to 150kw",
+        "cost":"150"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JNZ495",
+        "repaired":"DPF delete",
+        "cost":"100"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"JZU955",
+        "repaired":"Dyno test",
+        "cost":"55"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repaired":"New tyres",
+        "cost":"150"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"AEU513",
+        "repaired":"engine valves",
+        "cost":"420"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"AEU513",
+        "repaired":"straight pipe exhaust system",
+        "cost":"600"
+      
+      },{
+        "userId":"BBB211122",
+        "carNumb":"HZN863",
+        "repaired":"Bigger steering angle installation",
+        "cost":"220"
       
       }
     ]
