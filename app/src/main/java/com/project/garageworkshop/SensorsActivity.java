@@ -445,6 +445,10 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
                 direction.setText("Screen direction: user");
             if(z > -2 && z < 2 && x > -2 && x < 2 && y < -8)
                 direction.setText("Screen direction: upside down");
+            if (x > -2 && x < 1 && y > -2 && y < 0 && z < -9 && z > -10) {
+                finish();
+                moveTaskToBack(true);
+            }
         }
         if(mySensor.getType() == Sensor.TYPE_ACCELEROMETER && time >= time2)
         {

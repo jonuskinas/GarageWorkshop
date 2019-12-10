@@ -40,21 +40,7 @@ public class CarElementActivity extends AppCompatActivity {
         Picasso.get().load(car.getImageId()).into(carImage);
         remove.setOnClickListener(removeImage);
         shareButton.setOnClickListener(shareOnFacebook);
-        /*shareButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Shareable imageShare = new Shareable.Builder(v.getContext())
-                        .image(imageUri)
-                        .build();
-                imageShare.share();
-               /* Intent myIntent = new Intent(Intent.ACTION_SEND);
-                myIntent.putExtra(Intent.EXTRA_STREAM, car.getImageId());
-                myIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                myIntent.putExtra(Intent.EXTRA_TEXT, car.getMake() + " " + car.getModel());
-                myIntent.setType("");
-                startActivity(Intent.createChooser(myIntent,"Share using"));
-            }
-        });*/
+
     }
     void facebook() {
         imageShare = new Shareable.Builder(this)

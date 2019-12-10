@@ -64,13 +64,6 @@ public class CarsListActivity extends AppCompatActivity {
             }
         });
 
-        /*items.add(new CarListItem("Audi", "A6", "AEU513", R.drawable.audi));
-        items.add(new CarListItem("Subaru", "Forester", "JZU955", R.drawable.ic_car_image_placeholder));
-        items.add(new CarListItem("Audi", "A6", "AEU513", R.drawable.audi));
-        items.add(new CarListItem("Subaru", "Forester", "JZU955", R.drawable.ic_car_image_placeholder));
-        items.add(new CarListItem("Audi", "A6", "AEU513", R.drawable.audi));
-        items.add(new CarListItem("Subaru", "Forester", "JZU955", R.drawable.ic_car_image_placeholder));*/
-
         adapter = new RecyclerAdapter((ArrayList<CarListItem>) items);
         RecyclerView.LayoutManager man = new LinearLayoutManager(this);
         this.carsList.setLayoutManager(man);
