@@ -16,7 +16,11 @@
     <string name="add_car_to_list">Add car to list</string>
     <string name="search">Search</string>
     <string name="sort">Sort</string>
+    <string name="facebook_app_id">Facebook App ID</string>
     <string name="car">Car</string>
     <string name="remove_image">Remove Image</string>
     <string name="add_new_car">Add new car</string>
+    <string name="car_number_txt">Car number:</string>
+    <string name="repaired_object">Repaired object</string>
+    <string name="total_cost">Total cost:</string>
 </resources>

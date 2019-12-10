@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darGray"
+    android:orientation="vertical"
+    tools:context=".SensorsActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:text="x value"
+                android:layout_width="wrap_content"
+                android:textColor="@color/lightestGray"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:id="@+id/x_value"
+                android:textColor="@color/lightestGray"
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </TableRow>
+
+    <TableRow android:padding="10dp">
+        <TextView
+            android:text="y value"
+            android:textColor="@color/lightestGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            />
+        <TextView
+            android:id="@+id/y_value"
+            android:text="-"
+            android:textColor="@color/lightestGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow android:padding="10dp" >
+        <TextView
+            android:text="z value"
+            android:layout_width="wrap_content"
+            android:textColor="@color/lightestGray"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            />
+        <TextView
+            android:id="@+id/z_value"
+            android:textColor="@color/lightestGray"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow android:padding="10dp" >
+        <TextView
+            android:text="Coordinates"
+            android:layout_width="wrap_content"
+            android:textColor="@color/lightestGray"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            />
+        <TextView
+            android:id="@+id/coordinates"
+            android:text="-"
+            android:textColor="@color/lightestGray"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            />
+    </TableRow>
+        <TableRow android:padding="10dp" >
+            <TextView
+                android:id="@+id/direction"
+                android:textColor="@color/lightestGray"
+                android:text="-"
+                android:paddingRight="5dp"
+                android:paddingEnd="5dp"
+                />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/start_stopBtn"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ic_button"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_button"
+        android:id="@+id/take_photo"
+        android:text="Take photo"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/ic_button"
+        android:id="@+id/compass"
+        android:layout_height="wrap_content"
+        android:text="Compass"
+        />
+    <FrameLayout xmlns:androi="http://schemas.android.com/apk/res/android"
+        androi:id="@+id/framelay"
+        androi:layout_height="match_parent"
+        androi:layout_width="match_parent">
+        <TextureView
+            androi:layout_width="wrap_content"
+            androi:layout_height="wrap_content"
+            androi:id="@+id/textureView" />
+    </FrameLayout>
+
+
+</LinearLayout>

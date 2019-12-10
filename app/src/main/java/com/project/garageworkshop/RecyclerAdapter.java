@@ -10,6 +10,8 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -98,11 +100,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        CarListItem car = data.get(position);
-        holder.make.setText(car.getMake());
-        holder.model.setText(car.getModel());
-        holder.carNumb.setText(car.getCarNumb());
-        holder.carImage.setImageResource(car.getImageId());
+       if (data != null) {
+           CarListItem car = data.get(position);
+           holder.make.setText(car.getMake());
+           holder.model.setText(car.getModel());
+           holder.carNumb.setText(car.getCarNumb());
+           Picasso.get().load(car.getImageId()).into(holder.carImage);
+       }
     }
 
 

@@ -6,14 +6,13 @@ import android.os.Parcelable;
 import java.util.Comparator;
 
 public class CarListItem implements Parcelable {
-    private String make, model, carNumb;
-    private int imageId;
+    private String make, model, carNumb, imageId;
 
     public CarListItem() {
 
     }
 
-    public CarListItem(String make, String model, String carNumb, int imageId) {
+    public CarListItem(String make, String model, String carNumb, String imageId) {
         this.make = make;
         this.model = model;
         this.imageId = imageId;
@@ -29,7 +28,7 @@ public class CarListItem implements Parcelable {
         make = source.readString();
         model = source.readString();
         carNumb = source.readString();
-        imageId = source.readInt();
+        imageId = source.readString();
 
     }
     public String getMake() {
@@ -38,7 +37,7 @@ public class CarListItem implements Parcelable {
     public String getModel() {
         return model;
     }
-    public int getImageId() {
+    public String getImageId() {
         return imageId;
     }
     public void setMake(String make) {
@@ -47,7 +46,7 @@ public class CarListItem implements Parcelable {
     public void setModel(String model) {
         this.model = model;
     }
-    public void setImageId(int imageId) {
+    public void setImageId(String imageId) {
         this.imageId = imageId;
     }
 
@@ -69,7 +68,7 @@ public class CarListItem implements Parcelable {
         dest.writeString(make);
         dest.writeString(model);
         dest.writeString(carNumb);
-        dest.writeInt(imageId);
+        dest.writeString(imageId);
     }
 
     public static final Creator<CarListItem> CREATOR = new Creator<CarListItem>() {

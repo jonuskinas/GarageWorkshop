@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/darGray"
+    android:layout_height="match_parent"
+    >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/send_request"
+                    android:textColor="#fff"
+                    android:padding="10dp"
+                    android:background="@drawable/button"
+                    android:layout_weight="1"
+                    android:layout_marginRight="100dp"
+                    android:gravity="start"
+                    android:text="Send request"
+                    android:layout_marginEnd="100dp" />
+
+                <com.project.garageworkshop.IndicatingView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="end"
+                    android:layout_margin="10dp"
+                    android:id="@+id/generated_graphic"
+                    />
+
+            </LinearLayout>
+
+            <com.project.garageworkshop.ViewCount
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/generated_count"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/repairsView"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+
+</LinearLayout>
